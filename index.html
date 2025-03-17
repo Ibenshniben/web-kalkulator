@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fakultet Kalkulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fakultet Kalkulator</h1>
+        <div class="calculator">
+            <p>Skriv inn et tall for å beregne fakultet (n!):</p>
+            <input type="number" id="numberInput" min="0" max="170" placeholder="Skriv inn tall">
+            <button onclick="calculateFactorial()">Beregn</button>
+            <div id="result" class="result"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
